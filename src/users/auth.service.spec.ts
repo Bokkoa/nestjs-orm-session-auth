@@ -13,7 +13,6 @@ describe('AuthService', () => {
 
         const users: UserEntity[] = [];
 
-
         // + ======== +
         // |   MOCK   |
         // + ======== +
