@@ -6,7 +6,7 @@ global.beforeEach( async () => {
 
     try{
 
-        await promises.unlink(join(__dirname, '..', 'test.sqlite'));
+        await promises.unlink(join(__dirname, '..', 'db.test.sqlite'));
 
     } catch( err ){}
     

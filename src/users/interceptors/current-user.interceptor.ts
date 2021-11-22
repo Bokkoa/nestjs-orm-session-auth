@@ -1,4 +1,4 @@
-import { NestInterceptor, ExecutionContext, CallHandler, Injectable } from '@nestjs/common';
+import { NestInterceptor, ExecutionContext, CallHandler, Injectable, Global } from '@nestjs/common';
 import { Observable } from 'rxjs';
 import { UsersService } from '../users.service';
 

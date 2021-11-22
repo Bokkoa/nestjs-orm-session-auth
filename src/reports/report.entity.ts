@@ -1,11 +1,14 @@
 import { UserEntity } from "../users/user.entity";
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from "typeorm";
 
-@Entity()
+@Entity({name: 'reports'})
 export class ReportEntity{
 
     @PrimaryGeneratedColumn()
     id: number;
+
+    @Column({default: false})
+    approved: boolean;
 
     @Column()
     price: number;
